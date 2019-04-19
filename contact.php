@@ -27,20 +27,20 @@ echo '<body id="top">
                 <div id="menuButton"></div>
                 <div id="smallmenuButton"></div>
             </label>
-            <nav> <a href="index.html">Home</a>
-                <li class="dropdown"> <a href="portfolio.html">Portfolio</a>
+            <nav> <a href="/blugammadesign">Home</a>
+                <li class="dropdown"> <a href="portfolio">Portfolio</a>
                     <div class="dropdown-content"> <a href="portfolio.html#webDesign">Web Design</a> <a href="portfolio.html#brandDesign">Brand Design</a> </div>
-                </li> <a href="services.html">Services</a> <a href="contact.html">Contact</a> </nav>
+                </li> <a href="services">Services</a> <a href="contact.html">Contact</a> </nav>
         </div>
         <nav class="mainMenu">
             <input type="checkbox" id="toggleMenu" />
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/blugammadesign">Home</a></li>
                 <li class="mobiledropdown"> <a href="portfolio.html" class="mobiledropbtn">Portfolio</a>
                     <div class="mobiledropdown-content"> <a href="portfolio.html#webDesign">- Web Design</a> <a href="portfolio.html#brandDesign">- Brand Design</a> </div>
                 </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
