@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Design | Blugamma Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <link rel="shortcut icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="scripts/iframe/iframeScript.js"></script>
+    <link rel="stylesheet" href="./scripts/menuButton/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./scripts/menuButton/css/menu.css" type="text/css" />
+    <script src="scripts/scrollHeader/scrollHeader.js"></script>
+</head>
+
+<body id="top">
+    
+    <header>
+        <div class="wrap"> <img id="logo" src="images/logobanner.png">
+            <div id="titleFont">Blugamma Design</div>
+            <label for="toggleMenu" class="menuTitle" onclick="">
+                <div id="menuButton"></div>
+                <div id="smallmenuButton"></div>
+            </label>
+            <nav> <a href="http://blugammadesign.com">Home</a>
+                <li class="dropdown"> <a href="portfolio">Portfolio</a>
+                    <div class="dropdown-content"> <a href="portfolio#webDesign">Web Design</a> <a href="portfolio#brandDesign">Brand Design</a> </div>
+                </li> <a href="services">Services</a> <a href="contact">Contact</a> </nav>
+        </div>
+        <nav class="mainMenu">
+            <input type="checkbox" id="toggleMenu" />
+            <ul>
+                <li><a href="http://blugammadesign.com">Home</a></li>
+                <li class="mobiledropdown"> <a href="portfolio" id="portnavButton" class="mobiledropbtn">Portfolio</a>
+                    <div class="mobiledropdown-content"> <a href="portfolio#webDesign">- Web Design</a> <a href="portfolio#brandDesign">- Brand Design</a> </div>
+                </li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="#top">
+        <div id="scrollBackUp"></div>
+    </a>
+    <!--Inde iframe Overlay-->
+    
+    <!--harvey and martin iframe Overlay-->
+    <div id="harveyiframeOverlay">
+        <div class="iframeTitle">Harvey & Martin - Local Organic Hair Salon</div>
+        <div class="closeiframe">X</div>
+        
+    </div>
+
+    
+
+    <div class="wrap">
+        <div class="webContent">
+            <div class="titleText" id="webDesign">Web Design Projects</div> 
+            <img id="IndePortImage" src="images/indePortfolioImage.png">
+            <div id="indeIframe">
+            <iframe src="http://blugammadesign.com/internetdesign"></iframe>
+            </div>
+            <p class="PortTitle">Internet Design - University Course Site</p>
+            
+            <p id="indePortNameiframe">View Site</p>
+            <p id="hideInde">Hide Site</p>
+            <p class="portFont">This is a design I created while I was doing my first year at university. The brief for the assignment was to create a fully responsive website for our course. I made an automatic image slider that is fully responsive with all devices, I used the Facebook API to show the latest posts from the Digital Art Technology Facebook Page. I recieved a 1st for this project.</p>
+            
+            <img id="PEPortImage" src="images/PEPortfolioImage.png">
+            <div id="PEIframe">
+            <iframe src="http://test.projectequinox.co.uk"></iframe>
+            </div>
+            <p class="PortTitle">Project Equinox - War Veterans Charity</p>
+            <p id="PEPortNameiframe">View Site</p>
+            <p id="hidePE">Hide Site</p>
+            <p class="portFont">Project Equinox contacted me, to take their brochure they currently had and design it into an online website using their branding and content. This is a charity, that is, fundraising £3 million towards a £11 million project to build an accommodation for war veterans in need of medical supervision.</p>
+            <div class="titleText" id="brandDesign">Brand Design Projects</div> <img class="PortImage" src="images/gammatrekPortImage.jpg">
+            <p class="PortTitle">Gammatrek - Technology Youtube Channel</p>
+            <p class="portFont">This is a design that I created for a youtube channel that did unboxings and reviews of different types of technologies. I kept it simple using a colourful circuitboard as a background and using bold and easy to read typography that makes it visually pleasing for the user to read. I also added some imagery that is related to the topic and lined them up as font underline.</p> <img class="PortImage" src="images/OCSPortImage.jpg">
+            <p class="PortTitle">OCSapps - App Review Youtube Channel</p>
+            <p class="portFont">This design has a logo and banner that could be used in either youtube, twitter, and facebook. These graphics have a minimalist design that keeps the design simple , clean, and easy to understand. I used a slim sans-seif font that was clean. I used multiple different mobile devices that the user maybe using to review apps on to keep the design relative to the purpose.</p> <img class="PortImage" src="images/harveyBrandPortImage.jpg">
+            <p class="PortTitle">Harvey & Martin - Local Organic Hair Salon</p>
+            <p class="portFont">This brand design has a lovely vintage feel using dots and accents to make it suit the design the client requested. The logo is a golden silhouette with flowing hair which uses negative space for the facial features and the positive space to display the hair more boldly making it show that it is a hair salon at a quick glance, I used a stylish vintage typography that makes it suit the design perfectly. This is a brand design that I implimented into the website that I designed for this local business.</p>
+            <div class="gap"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <p id="copyright">&copy;2016 Blugamma Design. All Rights Reserved</p>
+            <div id="socialBar">
+                <a href="https://twitter.com/BluGamma" target="_blank">
+                    <div id="twitterIcon"></div>
+                </a>
+                <a href="https://www.facebook.com/blugammadesign" target="_blank">
+                    <div id="facebookIcon"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/blugammadesign" target="_blank">
+                    <div id="linkedInIcon"></div>
+                </a>
+            </div>
+            <p id="contactInfo">+44 (0)7986607850 | <a href="mailto:blugammadesign@gmail.com">blugammadesign@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+<script>
+    $("#indePortNameiframe").click(function() {
+    $("#indeIframe").css("display", "block");
+    $("#IndePortImage").css("display", "none");
+    $("#indePortNameiframe").css("display", "none");
+    $("#hideInde").css("display", "block");
+    });
+
+    $( "#hideInde" ).click(function() {
+    $( "#indeIframe" ).css("display", "none");
+    $("#IndePortImage").css("display", "block");
+    $("#indePortNameiframe").css("display", "block");
+    $("#hideInde").css("display", "none");
+    });
+
+    $("#PEPortNameiframe").click(function() {
+    $("#PEIframe").css("display", "block");
+    $("#PEPortImage").css("display", "none");
+    $("#PEPortNameiframe").css("display", "none");
+    $("#hidePE").css("display", "block");
+    });
+
+    $( "#hidePE" ).click(function() {
+    $( "#PEIframe" ).css("display", "none");
+    $("#PEPortImage").css("display", "block");
+    $("#PEPortNameiframe").css("display", "block");
+    $("#hidePE").css("display", "none");
+    });
+
+
+
+</script>
+</html>

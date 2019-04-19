@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Design | Blugamma Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <link rel="shortcut icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="scripts/iframe/iframeScript.js"></script>
+    <link rel="stylesheet" href="./scripts/menuButton/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./scripts/menuButton/css/menu.css" type="text/css" />
+    <script src="scripts/scrollHeader/scrollHeader.js"></script>
+</head>
+
+<body id="top">
+    <div class="overlay"></div>
+    <header>
+        <div class="wrap"> <img id="logo" src="images/logobanner.png">
+            <div id="titleFont">Blugamma Design</div>
+            <label for="toggleMenu" class="menuTitle" onclick="">
+                <div id="menuButton"></div>
+                <div id="smallmenuButton"></div>
+            </label>
+            <nav> <a href="http://blugammadesign.com">Home</a>
+                <li class="dropdown"> <a href="portfolio.html">Portfolio</a>
+                    <div class="dropdown-content"> <a href="portfolio.html#webDesign">Web Design</a> <a href="portfolio.html#brandDesign">Brand Design</a> </div>
+                </li> <a href="services.html">Services</a> <a href="contact.html">Contact</a> </nav>
+        </div>
+        <nav class="mainMenu">
+            <input type="checkbox" id="toggleMenu" />
+            <ul>
+                <li><a href="http://blugammadesign.com">Home</a></li>
+                <li class="mobiledropdown"> <a href="portfolio" id="portnavButton" class="mobiledropbtn">Portfolio</a>
+                    <div class="mobiledropdown-content"> <a href="portfolio#webDesign">- Web Design</a> <a href="portfolio#brandDesign">- Brand Design</a> </div>
+                </li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="#top">
+        <div id="scrollBackUp"></div>
+    </a>
+    <div class="wrap">
+        <div class="webContent">
+            <div class="titleText" id="webDesign">Current Services</div>
+            <div id="sideByside1"> <img src="images/responsiveDesignIcon.png" />
+                <div class="servicesFont">
+                    <p>Designed from the ground up using the latest technologies</p>
+                    <p>HTML 5 and CSS 3</p>
+                    <p>Fully Resonsive Design that will work with any screen size</p>
+                    <p>On-going Support</p>
+                </div>
+                <p class="servicesPrice">£200 - £750
+                    <p>
+                        <div class="contactForDetails">
+                            <a href="contact.html" title="Click here to contact us for an exact price.">
+                                <p>Contact for Price</p>
+                            </a>
+                        </div>
+            </div>
+            <div id="sideByside2"> <img src="images/brandDesignIcon.png" />
+                <div class="servicesFont">
+                    <p>Logo and Graphic Design</p>
+                    <p>Social Media Branding (Youtube, Twitter and Facebook)</p>
+                    <p>Local Business Branding</p>
+                    <p>On-going Support</p>
+                </div>
+                <p class="servicesPrice">£30 - £150
+                    <p>
+                        <div class="contactForDetails">
+                            <a href="contact.html" title="Click here to contact us for an exact price.">
+                                <p>Contact for Price</p>
+                            </a>
+                        </div>
+            </div>
+            <div id="sideByside3"> <img src="images/websiteManagement.png" />
+                <div class="servicesFont">
+                    <p>Adding features to your current site</p>
+                    <p>Social Intergration of Twitter and Facebook</p>
+                    <p>SEO (Search Engine Optimisation) get to the top of Google results</p>
+                    <p>Turn your current non-responsive site into a fully responsive site</p>
+                    </ul>
+                </div>
+                <p class="servicesPrice">£5 - £20 /Month
+                    <p>
+                        <div class="contactForDetails">
+                            <a href="contact.html" title="Click here to contact us for an exact price.">
+                                <p>Contact for Price</p>
+                            </a>
+                        </div>
+                        <div class="gap"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <p id="copyright">&copy;2016 Blugamma Design. All Rights Reserved</p>
+            <div id="socialBar">
+                <a href="https://twitter.com/BluGamma" target="_blank">
+                    <div id="twitterIcon"></div>
+                </a>
+                <a href="https://www.facebook.com/blugammadesign" target="_blank">
+                    <div id="facebookIcon"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/blugammadesign" target="_blank">
+                    <div id="linkedInIcon"></div>
+                </a>
+            </div>
+            <p id="contactInfo">+44 (0)7986607850 | <a href="mailto:blugammadesign@gmail.com">blugammadesign@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

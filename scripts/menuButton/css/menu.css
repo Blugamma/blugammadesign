@@ -1,0 +1,143 @@
+/*
+Responsive Mobile Toggle Menu v2.2
+Description: Mobile first responsive toggle menu
+Author: Danielle Vautier
+*/
+
+/*Menu mobile first CSS*/
+body{ -webkit-animation: bugfix infinite 1s; }
+
+/*This fixes a chrome/webkit bug for older Android Browsers */
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } 
+
+/*Required functional CSS don't change this bit
+CSS styles are at the end! */
+
+.mainMenu {
+	display:block;
+	position:relative;
+	width:100%;
+	margin:0;
+	padding:0;
+	float:left;
+    }
+	
+#toggleMenu { 
+	display: none;
+	}
+
+#toggleMenu:checked ~ ul {  
+	max-height:100%; /*Make page height*/ 
+	opacity:1;
+	}
+	
+.mainMenu > ul {
+    
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+    overflow-y: hidden;
+	max-height:0;
+	}
+
+.mainMenu li {
+    
+	margin:0;
+	padding:0;
+	white-space:nowrap;
+	display:block;
+	width:100%;
+	float:left;
+	}
+	
+.mainMenu a, .mainMenu a:visited {
+	display:block;
+	width:100%; /*required to make whole element clickable*/
+	}
+
+label.menuTitle {
+    padding: 0;
+	margin:0;
+	display:block;
+	cursor:pointer;
+	
+	}
+	
+@media screen and (min-width:1141px) {
+    .mainMenu{
+        display: none;
+    }
+	label.menuTitle {
+		display:none;
+		}
+	
+	.mainMenu ul { 
+		display:block!important;
+		border:0;
+		overflow:visible;
+		max-height:100%!important; 
+		}	
+
+	.mainMenu ul li {
+		display:inline; 
+		border:0; 
+		}
+}
+
+
+/*Menu Styling CSS - change the below to suit your site!*/
+.mainMenu {
+	margin:0;
+	text-align: center;
+    margin-top: 15px;
+}
+
+.mainMenu li {
+    background: linear-gradient(to right, #2e3b57 , #020d1b);
+}
+	
+.mainMenu a, .mainMenu a:visited {
+    border-top:2px solid #3087c4;
+    color: #3087c4;
+    text-decoration:none;
+	width:94%; /*Use 100% and box-sizing if not supporting ie7*/
+	padding:5px 3%;
+	background: none;
+	}
+	
+label.menuTitle{ 
+    width:45px;
+    margin-top:15px;
+    float:right;
+    padding:0;
+    
+	}
+.mainMenu a:hover{
+    color:white;
+}
+	
+@media screen and (min-width:1141px) {
+    
+
+	.mainMenu li {
+		border:0;
+		}
+	
+	.mainMenu a:hover  {
+		color:#767676;
+		}
+
+	.mainMenu a, .mainMenu a:visited {
+		padding:10px 3px 10px 8px;
+		}
+}
+
+@media screen and (max-width:1141px) and (min-width:1000px){
+    .mainMenu{
+        display: none;
+    }
+
+
+}

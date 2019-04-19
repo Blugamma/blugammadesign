@@ -1,0 +1,1210 @@
+@font-face {
+    font-family: coolvetica;
+    src: url('../fonts/coolvetica rg.ttf');
+}
+
+@font-face {
+    font-family: Calibri;
+    src: url('fonts/Calibri.ttf');
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rightThenLeft {
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+html {
+    min-height: 100%;
+    min-width: 320px;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #ecf0f1;
+    max-height: 100%;
+}
+
+.submit {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #00257c;
+    font-family: coolvetica;
+    text-align: center;
+    background-color: #3087c4;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #3087c4;
+    font-family: coolvetica;
+    background-color: #00257c;
+}
+
+p {
+    font-family: coolvetica;
+    color: #3087c4;
+}
+
+#contactForm p,
+h3,
+h4 {
+    font-family: coolvetica;
+    color: #3087c4;
+}
+
+.wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#indeIframe{
+    display: none;
+    padding-top:1%;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#PEIframe{
+    display: none;
+    padding-top:1%;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+
+iframe {
+    padding: 0;
+    width: 100%;
+    height:29vw;
+    /* Standard syntax */
+}
+
+#harveyiframeOverlay {
+    padding: 0;
+    display: none;
+    z-index: 1;
+    width: 70%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #2e3b57, #020d1b);
+    /* Standard syntax */
+}
+
+#PEiframeOverlay {
+    padding: 0;
+    display: none;
+    z-index: 1;
+    width: 70%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, #2e3b57, #020d1b);
+    /* Standard syntax */
+}
+#indePortNameiframe {
+    font-size: 1.1em;
+    padding-top: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 124px;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#indePortNameiframe:hover {
+    color: #1b273d;
+}
+
+#harveyPortNameiframe {
+    font-size: 1.1em;
+    padding-top: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 124px;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#harveyPortNameiframe:hover {
+    color: #1b273d;
+}
+
+#PEPortNameiframe {
+    font-size: 1.1em;
+    padding-top: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 124px;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#PEPortNameiframe:hover {
+    color: #1b273d;
+}
+
+.closeiframe {
+    display: none;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    margin-left: 97%;
+    padding: 6px;
+}
+
+.closeiframe:hover {
+    color: white;
+}
+
+.iframeTitle {
+    padding-top: 6px;
+    padding-left: 20px;
+    position: absolute;
+    font-family: coolvetica;
+    color: #3087c4;
+}
+
+
+
+#harveyIframe {
+    margin-top: 31px;
+    width: 99.6%;
+    height: 94.8%;
+}
+
+#PEIframe {
+    margin-top: 31px;
+    width: 99.6%;
+    height: 94.8%;
+}
+
+.overlay {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 1000vh;
+    width: 1000vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+header {
+    padding: 0;
+    background: -webkit-linear-gradient(left, #2e3b57, #020d1b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #2e3b57, #020d1b);
+    /* Standard syntax */
+    width: 100%;
+    height: 83px;
+    border-bottom: 3px solid #3087c4;
+}
+
+#logo {
+    padding-top: 13px;
+    width: 2.3em;
+    float: left;
+}
+
+#titleFont {
+    padding-top: 20px;
+    float: left;
+    font-family: coolvetica;
+    color: #3087c4;
+    font-size: 2.1em;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 450px;
+}
+
+nav a {
+    padding-bottom: 34px;
+    display: inline;
+    font-size: 1em;
+    float: left;
+    padding-top: 30px;
+    margin-right: 8%;
+    font-family: coolvetica;
+    text-decoration: none;
+    color: #3087c4;
+}
+
+nav a:hover {
+    color: white;
+}
+
+footer {
+    background: -webkit-linear-gradient(left, #2e3b57, #020d1b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #2e3b57, #020d1b);
+    /* Standard syntax */
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-height: 125px;
+    position: absolute;
+    bottom: 0;
+    clear: both;
+    border-top: 3px solid #3087c4;
+}
+
+footer p {
+    margin-top: 8px;
+    float: left;
+    font-family: Calibri;
+    color: #3087c4;
+}
+
+#socialBar {
+    width: 150px;
+    padding-left: 6px;
+    margin: auto;
+}
+
+#socialBar a {
+    text-decoration: none;
+}
+
+#twitterIcon {
+    float: left;
+    padding: 0;
+    background-image: url('../images/twitter.png');
+    width: 50px;
+    height: 43px;
+}
+
+#twitterIcon:hover {
+    background-image: url('../images/twitterhover.png');
+}
+
+#facebookIcon {
+    float: left;
+    background-image: url('../images/facebookLogo.png');
+    width: 50px;
+    height: 43px;
+}
+
+#facebookIcon:hover {
+    background-image: url('../images/facebookhover.png');
+}
+
+#linkedInIcon {
+    float: left;
+    background-image: url('../images/linkedInLogo.png');
+    width: 50px;
+    height: 43px;
+}
+
+#linkedInIcon:hover {
+    background-image: url('../images/linkedInhover.png');
+}
+
+#contactInfo {
+    float: right;
+}
+
+#contactInfo a {
+    text-decoration: none;
+    color: #3087c4;
+}
+
+#contactInfo a:hover {
+    color: white;
+}
+
+#copyright {
+    display: inline;
+    float: left;
+}
+
+.webContent {
+    padding-top: 2%;
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+#introFont {
+    font-size: 200%;
+    color: #3087c4;
+    font-family: coolvetica;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#portfolioButton {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    background-color: #3087c4;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#portfolioButton p {
+    padding: 6%;
+    font-size: 150%;
+    text-align: center;
+    color: #00257c;
+    font-family: coolvetica;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#portfolioButton p:hover {
+    color: #3087c4;
+}
+
+#portfolioButton:hover {
+    cursor: pointer;
+    background-color: #00257c;
+}
+
+#portfolioButton a,
+a:visited {
+    text-decoration: none;
+}
+
+.servicesIcon {
+    padding-top: 3%;
+    padding-right: 1%;
+    width: 32%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.servicesFont {
+    color: #3087c4;
+}
+
+#sideByside1 {
+    padding-top: 1%;
+    width: 31%;
+    float: left;
+    padding-bottom: 5%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#sideByside1 .servicesFont {
+    width: 100%;
+    text-align: center;
+}
+
+#sideByside1 img {
+    width: 100%;
+}
+
+#sideByside2 {
+    padding-top: 1%;
+    width: 31%;
+    float: left;
+    padding-left: 3.5%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#sideByside2 .servicesFont {
+    width: 100%;
+    text-align: center;
+}
+
+#sideByside2 img {
+    width: 100%;
+}
+
+#sideByside3 {
+    padding-top: 1%;
+    float: right;
+    width: 31%;
+    padding-bottom: 15px;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#sideByside3 .servicesFont {
+    width: 100%;
+    text-align: center;
+}
+
+#sideByside3 img {
+    width: 100%;
+}
+
+.websiteservicesIcon {
+    width: 32%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#backtotopArrows {
+    background: url("../images/backToTheTop.png") no-repeat;
+    padding: 2.2px;
+    display: block;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#backtotopArrows:hover {
+    background: url("../images/backToTheTophover.png") no-repeat;
+}
+
+#IndePortImage {
+    display: block;
+    width: 100%;
+    padding-top: 1%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#PEPortImage {
+    display: block;
+    width: 100%;
+    padding-top: 1%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.PortImage {
+    display: block;
+    width: 100%;
+    padding-top: 1%;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.PortTitle {
+    height: 10px;
+    margin-top: -3px;
+    color: #3087c4;
+    font-family: coolvetica;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#hideInde{
+    font-family: coolvetica;
+    color: #3087c4;
+    display:none;
+    font-size: 1.1em;
+    padding-top: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 124px;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#hideInde:hover {
+    color: #1b273d;
+}
+
+#hidePE{
+    font-family: coolvetica;
+    color: #3087c4;
+    display:none;
+    font-size: 1.1em;
+    padding-top: 8px;
+    text-align: center;
+    margin: 0 auto;
+    width: 124px;
+    font-family: coolvetica;
+    color: #3087c4;
+    cursor: pointer;
+    -webkit-animation: rightThenLeft 4s linear;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#hidePE:hover {
+    color: #1b273d;
+}
+
+
+.portFont {
+    color: #3087c4;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+    text-align: justify;
+}
+
+.titleText {
+    text-align: center;
+    padding-top: 5px;
+    font-family: coolvetica;
+    color: #3087c4;
+    font-size: 1.9em;
+    margin: 0 auto;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content {
+    margin-top: 83px;
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 0;
+    width: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #3087c4;
+    background: -webkit-linear-gradient(left, #2e3b57, #020d1b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #2e3b57, #020d1b);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #2e3b57, #020d1b);
+    /* Standard syntax */
+    text-align: center;
+}
+
+.boldFont {
+    color: #00257c;
+}
+
+.gap {
+    height: 150px;
+    display: inline-block;
+    float: left;
+}
+
+.mainMenu a {
+    display: none;
+}
+
+.contactForDetails {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    background-color: #3087c4;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.contactForDetails p {
+    color: #00257c;
+    font-family: coolvetica;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contactForDetails:hover {
+    background-color: #00257c;
+}
+
+.contactForDetails p:hover {
+    color: #3087c4;
+}
+
+.contactForDetails a,
+a:visited {
+    text-decoration: none;
+}
+
+.servicesPrice {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    font-family: coolvetica;
+    color: #3087c4;
+    font-size: 1.5em;
+}
+
+#scrollBackUp {
+    display: none;
+    position: fixed;
+    background: url("../images/backToTheTop.png") no-repeat;
+    top: 50%;
+    left: 5%;
+    width: 200px;
+    height: 35px;
+}
+
+#scrollBackUp:hover {
+    background: url("../images/backToTheTopHover2.png") no-repeat;
+}
+
+@media only screen and (max-width: 1391px) {
+    .wrap {
+        display: block;
+        clear: both;
+        width: 70%;
+        margin: auto;
+    }
+    #contactInfo {
+        float: left;
+        padding-top: 50px;
+        margin-left: -266px;
+    }
+    footer p {
+        font-size: .9em;
+        margin-top: 10px;
+    }
+    #socialBar {
+        float: right;
+        padding-top: 4px;
+    }
+    #contactInfo {
+        padding-top: 15px;
+    }
+    .servicesIcon {
+        margin-left: 6%;
+        display: inline;
+        width: 40%;
+    }
+    .websiteservicesIcon {
+        display: block;
+        width: 40%;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+    .mainMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1141px) {
+    #portfolioButton p {
+        font-size: 95%;
+    }
+    .servicesIcon {
+        padding: 0;
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    .websiteservicesIcon {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    #smallmenuButton {
+        display: none;
+    }
+    .closeiframe {
+        right: 1%;
+    }
+    .mobiledropdown-content {
+        text-align: left;
+        float: right;
+        display: block;
+        width: 54%;
+        
+    }
+    .mobiledropdown:hover .mobiledropdown-content {
+        display: block;
+        z-index: 1;
+    }
+    .mobiledropdown-content a {
+        text-decoration-color: black;
+        text-decoration-line: underline;
+    }
+    #introFont {
+        max-width: 500px;
+        font-size: 110%;
+    }
+    .mainMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+    .mainMenu {
+        display: none;
+    }
+    #menuButton {
+        margin-top: -5px;
+        margin-left: -20px;
+        display: block;
+        background: url('../scripts/menuButton/images/menu.png') no-repeat;
+        width: 43px;
+        height: 57px;
+    }
+    #menuButton:hover {
+        background: url('../scripts/menuButton/images/menuhover.png') no-repeat;
+    }
+    #sideByside1 {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    #sideByside2 {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    #sideByside3 {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrap {
+        width: 95%;
+    }
+    .titleText {
+        font-size: 160%;
+    }
+    #portfolioButton p {
+        font-size: 70%;
+    }
+    .servicesIcon {
+        padding: 0;
+        width: 70%;
+        margin: auto;
+    }
+    .websiteservicesIcon {
+        width: 70%;
+        margin: auto;
+    }
+    .iframeTitle {
+        padding-left: 3px;
+        padding-top: 8px;
+        font-size: 80%;
+    }
+    .closeiframe {
+        right: 1%;
+    }
+    #indeiframeOverlay {
+        width: 95%;
+    }
+    .PortTitle {
+        font-size: 1em;
+    }
+    #indePortNameiframe {
+        padding-top: 5px;
+        text-align: center;
+        width: 75px;
+        font-size: .9em;
+    }
+    #harveyPortNameiframe {
+        padding-top: 5px;
+        text-align: center;
+        width: 75px;
+        font-size: .9em;
+    }
+
+    #PEPortNameiframe{
+        padding-top: 5px;
+        text-align: center;
+        width: 75px;
+        font-size: .9em;
+    }
+    #scrollBackUp {
+        left: 0;
+        margin: 2px;
+    }
+}
+
+@media only screen and (max-width: 531px) {
+    .wrap {
+        width: 90%;
+    }
+    #indeiframeOverlay {
+        width: 95%;
+    }
+    #harveyiframeOverlay {
+        width: 95%;
+    }
+
+    #PEiframeOverlay {
+        width:95%;
+    }
+    .iframeTitle {
+        font-size: 65%;
+    }
+    .servicesIcon {
+        padding: 0;
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .websiteservicesIcon {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    #portfolioButton {
+        width: 50%;
+    }
+    #portfolioButton p {
+        font-size: 70%;
+    }
+    footer p {
+        padding: 0;
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #contactInfo {
+        padding-top: 1px;
+        margin-left: 0px;
+    }
+    #socialBar {
+        padding-left: 7px;
+        display: block;
+        width: 150px;
+        margin: auto;
+        float: none;
+    }
+    #titleFont {
+        padding-top: 24px;
+        font-size: 1.4em;
+    }
+    #smallmenuButton {
+        margin-top: -5px;
+        display: block;
+        background: url('../scripts/menuButton/images/smallmenu.png') no-repeat;
+        width: 31px;
+        height: 45px;
+    }
+    #smallmenuButton:hover {
+        background: url('../scripts/menuButton/images/smallmenuhover.png') no-repeat;
+    }
+    #menuButton {
+        display: none;
+    }
+    #sideByside1 {
+        width: 100%;
+    }
+    #sideByside2 {
+        width: 100%;
+    }
+    #sideByside3 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 312px) {
+    #portfolioButton {
+        width: 50%;
+    }
+    #portfolioButton p {
+        font-size: 70%;
+    }
+    .titleText {
+        font-size: 20px;
+    }
+}

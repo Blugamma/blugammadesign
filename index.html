@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Design | Blugamma Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <link rel="shortcut icon" href="images/logoIcon.png_32x32.png" type="image/xicon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="./scripts/menuButton/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./scripts/menuButton/css/menu.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/imgSlider/ideal-image-slider.css">
+    <link rel="stylesheet" href="./styles/imgSlider/default.css">
+    <script src="./scripts/imgSlider/ideal-image-slider.js"></script>
+    <script src="./scripts/scrollHeader/scrollHeader.js"></script>
+</head>
+
+<body id="top">
+    <header>
+        <div class="wrap"> <img id="logo" src="images/logobanner.png">
+            <div id="titleFont">Blugamma Design</div>
+            <label for="toggleMenu" class="menuTitle" onclick="">
+                <div id="menuButton"></div>
+                <div id="smallmenuButton"></div>
+            </label>
+            <nav> <a href="http://blugammadesign.com">Home</a>
+                <li class="dropdown"> <a href="portfolio">Portfolio</a>
+                    <div class="dropdown-content"> <a href="portfolio#webDesign">Web Design</a> <a href="portfolio#brandDesign">Brand Design</a> </div>
+                </li> <a href="services">Services</a> <a href="contact">Contact</a> </nav>
+        </div>
+        <nav class="mainMenu">
+            <input type="checkbox" id="toggleMenu" />
+            <ul>
+                <li><a href="http://blugammadesign.com">Home</a></li>
+                <li class="mobiledropdown"> <a href="portfolio" id="portnavButton" class="mobiledropbtn">Portfolio</a>
+                    <div class="mobiledropdown-content"> <a href="portfolio#webDesign">- Web Design</a> <a href="portfolio#brandDesign">- Brand Design</a> </div>
+                </li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="#top">
+        <div id="scrollBackUp"></div>
+    </a>
+    <div class="wrap">
+        <div class="webContent">
+            <div id="slider"> <img data-src="images/gammatrekPortImage.jpg" alt="Minimum required attributes"> <img data-src="images/harveyandmartinPortImage.jpg" alt="Minimum required attributes"> <img data-src="images/indePortfolioImage.jpg" alt="Minimum required attributes"> <img data-src="images/OCSPortImage.jpg" alt="Minimum required attributes"> <img data-src="images/harveyBrandPortImage.jpg" alt="Minimum required attributes"> </div>
+            <div id="introFont">Hello and welcome to Blugamma Design a freelance web design company that uses the most up to date techniques to make a <span class="boldFont">clean</span> and <span class="boldFont">modern</span> website!</div>
+            <div id="portfolioButton">
+                <a href="portfolio.html">
+                    <p>Portfolio</p>
+                </a>
+            </div>
+            <div class="gap"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <p id="copyright">&copy;2016 Blugamma Design. All Rights Reserved</p>
+            <div id="socialBar">
+                <a href="https://twitter.com/BluGamma" target="_blank">
+                    <div id="twitterIcon"></div>
+                </a>
+                <a href="https://www.facebook.com/blugammadesign" target="_blank">
+                    <div id="facebookIcon"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/blugammadesign" target="_blank">
+                    <div id="linkedInIcon"></div>
+                </a>
+            </div>
+            <p id="contactInfo">+44 (0)7986607850 | <a href="mailto:blugammadesign@gmail.com">blugammadesign@gmail.com</a></p>
+        </div>
+    </footer>
+    
+    <script>
+        var slider = new IdealImageSlider.Slider('#slider');
+        slider.start();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,607 @@
+@font-face{
+    font-family: 'heavitasregular';
+    src: url('../fonts/heavitas-webfont.eot');
+    src: url('../fonts/heavitas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/heavitas-webfont.woff2') format('woff2'),
+         url('../fonts/heavitas-webfont.woff') format('woff'),
+         url('../fonts/heavitas-webfont.ttf') format('truetype'),
+         url('../fonts/heavitas-webfont.svg#heavitasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+    max-width: 100%;
+    padding:0;
+    margin:0;
+    background-color: darkgray
+}
+
+#topBanner{
+    width:100%;
+    height: 344px;
+    background-image: url('../images/banner.jpg');
+}
+
+#topBanner h1{
+    padding: 0;
+    margin:0;
+    text-align:center;
+    font-size: 420%;
+    color:white;
+    font-family: 'heavitasregular';
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-shadow: #10092b 0 0 10px;
+}
+
+#topBanner h2{
+    padding: 0;
+    margin:0;
+    position: relative;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align:center;
+    font-size: 220%;
+    color:white;
+    font-family: 'heavitasregular';
+    text-shadow: #10092b 0 0 10px;
+
+
+}
+
+#mobileNav{
+display:none;
+}
+
+nav{
+    width:100%;
+    margin: auto;
+    height: 40px;
+    background-color: #2967f2;
+}
+
+nav a{
+    margin-top: 10px;
+    color:white;
+    width: 25%;
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'heavitasregular';
+    text-decoration: none;
+}
+
+nav  a:hover{
+    color:#808080;
+
+}
+
+footer{
+    height:auto;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color: #2967f2;
+    position: static;
+    padding-bottom:1px;
+    padding-top: 1px;
+	
+}
+
+footer p, #backToTop{
+    text-align: center;   
+    margin: 0;
+    bottom: 0;
+    font-family: 'heavitasregular';
+    font-size: 105%;
+    color:white;
+}
+footer #legal a:link, a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+footer #legal a:hover{
+    color:gray;
+}
+
+
+
+footer #footerNav a:link, a:visited{
+    margin: 7%;
+    font-size: 70%;
+    text-decoration: none;
+    color: white;
+    }
+
+footer #footerNav a:hover{
+    color:gray;
+}
+
+footer #backToTop a:link, a:visited{
+    font-size: 70%;
+    text-decoration: none;
+    font-family: 'heavitasregular';
+    color:white;
+}
+
+footer #backToTop a:hover{
+    color: gray;
+}
+
+#center{
+    width:70%;
+    margin: auto;
+    background-color: gainsboro;
+}
+
+#fbPic{
+    padding-top:10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    width:30%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#fbFont{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    text-align:center;
+    color: #2967f2;
+    padding:10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    
+    
+}
+
+#fbTime{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    text-align: center;
+    padding-left: 40px;
+    color: #2967f2;
+}
+
+#fbDate{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    text-align: center;
+    padding-left: 40px;
+    color: #2967f2;
+    border-bottom: 4px solid #2967f2;
+    }
+
+#blogTitle{
+    margin: 0;
+    text-align: center;
+    font-family: 'heavitasregular';
+    color: #0439af;
+    border-bottom: 4px solid #2967f2;
+}
+
+.navCenter{
+    width:70%;
+    margin:auto;
+}
+
+#keyFeatures{
+    margin:0;
+    list-style-type: square;
+}
+
+li{
+    color:#2967f2;
+}
+
+#lastLi{
+    padding-bottom: 10px;
+}
+
+.contentP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+    padding-right:1%;
+    padding-left:1%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.contentP a:link, .contentP a:visited{
+    color: #0439af;
+    text-decoration: none;
+    font-style:oblique;
+}
+.contentP a:hover{
+    color: gray;
+}
+
+.contentH1{
+    font-family: 'heavitasregular';
+    color: #0439af;
+    font-size: 120%;
+    margin:0;
+    padding-right:10px;
+    padding-left:10px;
+    max-width: 100%;
+}
+
+.imgWithDesc{
+    width:25%;
+    margin: 5px;
+}
+
+.imgWithDesc img{
+    display: block;
+    margin: 0 auto;
+    max-width:100%;
+    height:auto;
+}
+
+.imgCaption{
+    text-align: center;
+    padding:10px;
+
+}
+
+.staffH1{
+    font-family: 'heavitasregular';
+    color: #0439af;
+    text-align: center;
+    font-size: 120%;
+    margin:0;
+    padding-right:10px;
+    padding-left:10px;
+    max-width: 100%;
+}
+
+.staffH1Left{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #0439af;
+    text-align: left;
+    font-size: 104%;
+    margin:0;
+    padding-right:1%;
+    padding-left:1%;;
+    max-width: 100%;
+    text-decoration: underline;
+}
+
+.imgCaptionP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+}
+
+#simonProfile{
+    display: flex;
+    border-bottom: 1px solid #2967f2;
+    border-left: 1px solid #2967f2;
+    border-right: 1px solid #2967f2;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mikeProfile{
+    display: flex;
+    border: 1px solid #2967f2;
+    margin:5px;
+}
+
+#hannahProfile{
+    display: flex;
+    border-top: 1px solid #2967f2;
+    border-left: 1px solid #2967f2;
+    border-right: 1px solid #2967f2;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.staffBio{
+    flex:1;
+    border-left: 1px solid #2967f2;
+}
+
+.staffP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+.detailsH1{
+    margin-bottom: 0;
+    font-family: 'heavitasregular';
+    color: #0439af;
+    font-size: 120%;
+    padding-left: 1%;
+    margin-right: 0;
+}
+
+#detailsH1{
+    margin:0;
+    font-family: 'heavitasregular';
+    color: #0439af;
+    font-size: 120%;
+    padding-top:1%;
+    padding-left: 1%;
+}
+
+.detailsP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin:0;
+    border-bottom: 1px solid #2967f2;
+}
+
+.mediaLab1{
+    width:49%;
+    padding-left:1%;
+}
+
+.mediaLab2{
+    width:49%;
+    padding-right:1%;
+}
+
+.IDcontentP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin:0;
+}
+
+#IDcontentP{
+    font-family: "Trebuchet MS", 'Helvetica', 'sans-serif';
+    color: #2967f2;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin:0;
+    border-bottom: 4px solid #2967f2;
+}
+#IDcontentP a:link, #IDcontentP a:visited{
+    color: #0439af;
+    text-decoration: none;
+    font-style:oblique;
+}
+#IDcontentP a:hover{
+    color: gray;
+}
+
+
+#showYear1Content{
+    display:none;
+}
+#year1:focus ~ #showYear1Content{
+    display:block;
+}
+
+#year1 .detailsH1:hover{
+    cursor: pointer;
+    color:gray;
+}
+
+#showYear2Content{
+    display:none;
+}
+#year2:focus ~ #showYear2Content{
+    display:block;
+}
+
+#year2 .detailsH1:hover{
+    cursor: pointer;
+    color:gray;
+}
+
+#showYear3Content{
+    display:none;
+}
+#year3:focus ~ #showYear3Content{
+    display:block;
+}
+
+#year3 .detailsH1:hover{
+    cursor: pointer;
+    color:gray;
+}
+
+#applyButton{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#applyButton a:link, #applyButton a:visited {
+    color:white;
+    font-family: 'heavitasregular';
+    padding: 10px;
+    background-color:gray;
+    border: 2px solid #2967f2;
+    text-decoration: none;
+}
+
+#applyButton a:hover{
+    color: #2967f2;
+}
+
+
+/*Image Slider*/
+
+#imageSlider{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+
+/*Tablet CSS*/
+
+@media screen and (max-width: 1024px) {
+    
+
+    #topBanner{
+        height: 200px;
+    }
+
+    #topBanner h1{
+        font-size: 320%;
+    }
+    
+    #topBanner h2{
+        font-size: 90%;
+    }
+    
+    #applyButton{
+        top:46%;
+    }
+    
+    #applyButton a{
+        font-size: 50%;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    #mobileNav{
+        display:block;
+    }
+
+    .iconSize{ 
+        width:32px;
+        margin-top: -6px;
+        
+    }
+        
+    #blogTitle{
+        font-size: 270%;
+        max-width: 100%;
+    }
+    
+    #center{
+        width:100%;
+    }
+    
+    #simonProfile{
+        width:100%;
+        border-right:0;
+        border-left:0;
+        margin:0;
+    }
+    
+    #mikeProfile{
+        width:100%;
+        border-right:0;
+        border-left:0;
+        margin-left:0;
+        margin-right:0;
+    }
+    
+    #hannahProfile{
+        width:100%;
+        border-right:0;
+        border-left:0;
+        margin-left:0;
+        margin-right:0;
+    }
+    
+     .imgWithDesc{
+        width:50%;
+    }
+    .imgCaptionP{
+        font-size: 75%;
+    }
+    .staffP{
+        font-size: 75%;
+    }
+    
+    .staffH1{
+        font-size: 85%;
+    }
+    #fbPic{
+        width:50%;
+    }
+    
+    
+    
+}
+
+/*Mobile CSS*/
+
+@media screen and (max-width:520px) {
+    #topBanner{
+    height: 150px;
+    }
+    #topBanner h1{
+        font-size: 178%;
+    }
+    
+    #topBanner h2{
+        font-size: 85%;
+        top: 45%;
+    }
+    
+    #applyButton{
+        top:52%;
+    }
+    
+    #applyButton a{
+        font-size: 50%;
+    }
+    
+    
+    footer #legal{
+        font-size: 75%;
+    }
+    
+    #blogTitle{
+        font-size: 205%;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .imgWithDesc{
+        width:50%;
+    }
+    
+    .detailsP{
+        font-size: 75%;
+    }
+    
+    .contentP{
+        font-size: 75%;
+    }
+    
+    .IDcontentP{
+        font-size: 75%;
+    }
+    
+    #IDcontentP{
+        font-size: 75%;
+    }
+}

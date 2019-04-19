@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internet Design</title>
+        <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="scripts/javascript.js"></script> 
+   </head>
+    
+    <body>
+        
+        <div id="topBanner" "#top">
+            <h1>Internet Design</h1>
+            <h2>Plymouth University</h2>
+            <div id="applyButton"><a target="_blank" href="https://www.plymouth.ac.uk/courses/undergraduate/ba-internet-design">Apply Here!</a></div>
+        </div>
+        <!--Desktop Navagation-->
+        <nav>
+            <div class="navCenter">
+                <a href="index.html">Home</a>
+                <a href="details.html">Details</a>
+                <a href="staff.html">Lecturers</a>
+                <a href="blog.html">Blog</a>
+            </div>
+        </nav>
+        <!--//Desktop Navagation-->
+        
+        <!--Mobile Navigation-->
+        <nav id="mobileNav">
+            <a href="index.html"><img class="iconSize" src="images/homeIcon.png"></a>
+            <a href="details.html"><img class="iconSize" src="images/detailsIcon.png"></a>
+            <a href="staff.html"><img class="iconSize" src="images/staffIcon.png"></a>
+            <a href="blog.html"><img class="iconSize" src="images/blogIcon.png"></a>
+        </nav>
+        <!--//Mobile Navigation-->
+        
+        <div id="center">
+            <!--Facebook LiveFeed Using JavaScript to Display content-->
+            <h1 id="blogTitle">Facebook LiveFeed</h1>
+            <div id="fbPost">
+            
+            
+            </div>
+            <script src="https://graph.facebook.com/v2.5/372297992815804/posts?fields=full_picture,message,created_time&access_token=210533735964267|qmBdk8_ZYHk0DriRea6JLwguI6U&callback=handleResponse">
+            </script>
+            <!--//Facebook LiveFeed-->
+        </div>
+        
+        <!--HTML Footer-->
+        <footer>
+            <div id="backToTop"><a href="#top">Top of page</a></div>
+            <p id="footerNav">
+                <a href="index.html">Home</a>
+                <a href="details.html">Details</a>
+                <a href="staff.html">Lecturers</a>
+                <a href="blog.html">Blog</a>
+            </p>
+            <p id="legal">&copy;2016 <a href="http://www.blugammadesign.com">Blugamma Design</a>. All rights reserved</p>
+        </footer>
+        <!--//HTML Footer-->
+    </body>
+    
+</html>
+
